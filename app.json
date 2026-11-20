@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "delayed-load-repro",
+    "slug": "delayed-load-repro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "dev.repro.delayedload"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://10.0.2.2:8765/never-answers",
+      "fallbackToCacheTimeout": 6000,
+      "checkAutomatically": "ON_LOAD"
+    },
+    "plugins": [
+      "./plugins/with-standard-launch-mode"
+    ]
+  }
+}
